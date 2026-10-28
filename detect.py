@@ -7,13 +7,13 @@ from mediapipe.tasks.python import vision  # noqa: F401 (registers vision tasks)
 
 # CONFIG
 MODEL_PATH = "assets/models/face_landmarker.task"
-IMAGE_PATH = r"assets/images/brown_girl.jpg"
+IMAGE_PATH = r"C:\Users\User\Downloads\WhatsApp Image 2026-10-28 at 1.00.53 PM.jpeg"
 # IMAGE_PATH = r"C:\Users\User\Downloads\passport_profile.jpg"
 
 # pip list | findstr opencv
 
 MAX_TILT_DEG = 2            # max allowed head roll (degrees)
-EYE_FACE_RATIO_RANGE = (0.40, 0.52)  # IPD / face width; outside => likely turned
+EYE_FACE_RATIO_RANGE = (0.40, 0.56)  # IPD / face width; outside => likely turned
 MIN_AREA_RATIO, MAX_AREA_RATIO = 0.18, 0.60   # face box area / image area
 MIN_WIDTH_RATIO, MAX_WIDTH_RATIO = 0.40, 0.70  # face box width / image width
 PAD = 15
